@@ -6,7 +6,7 @@ pipeline{
     steps {
 
     git branch: 'main', credentialsId: 'git-tahyd-token',
-     url: 'https://github.com/tahyd/k8s.git'
+     url: 'https://github.com/tahyd/devsecops-ems.git'
     }
     }
 }
