@@ -13,7 +13,7 @@ pipeline{
         jdk "jdk21"
     }
 
-
+stages{
     stage("Checkout"){
 
     steps {
@@ -71,5 +71,5 @@ stage("build docker image"){
 
 
 
-
+}
 }
