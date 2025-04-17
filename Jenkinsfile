@@ -22,8 +22,15 @@ stages{
      url: 'https://github.com/tahyd/devsecops-ems.git'
     }
     }
+   stage("Compile"){
 
-    stage("Compile"){
+   steps {
+     bat 'mvn compile'
+   }
+   }
+
+
+    stage("Sonar analysis"){
 
      steps {
 
